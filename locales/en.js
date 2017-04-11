@@ -171,5 +171,10 @@
 	"404 - Page not found": "404 - Page not found",
 	"Versions": "Versions",
 	"Edit reason": "Edit reason",
-	"Previous versions": "Previous versions"
+	"Previous versions": "Previous versions",
+	"AfroMarket.com": "AfroMarket.com",
+	"User is admin?": "User is admin?",
+	"User account updated.": "User account updated.",
+	"Suggestion successfully processed": "Suggestion successfully processed",
+	"Ask Question": "Ask Question"
 }

@@ -9,7 +9,7 @@
         <title>{{result.kb_title}}</title>
         <meta property="og:title" content="{{result.kb_title}}" />
       {{else}}
-        <title>{{title}}</title>
+        <title>AfroMarket Support Center</title>
         <meta property="og:title" content="{{title}}" />
       {{/if}}
     {{/if}}
@@ -28,15 +28,15 @@
           <meta name="description" content="{{config.settings.website_description}}">
           <meta property="og:description" content="{{config.settings.website_description}}" />
         {{else}}
-          <meta name="description" content="{{__ "Powered by"}} openKB">
-          <meta property="og:description" content="openKB is an Open Source Node.js Markdown based knowledge base/FAQ/Wiki app with powerful lunr search" />
+          <meta name="description" content="{{__ "AfroMarket.com"}} Buy, Sell, Trade Near You.">
+          <meta property="og:description" content="AfroMarket lets you buy, sell, trade new and used items and services with people near you." />
         {{/ifCond}}
       {{/if}}
     {{/if}}
     {{#if result.kb_keywords}}
       <meta name="keywords" content="{{result.kb_keywords}}">
     {{else}}
-      <meta name="keywords" content="openKB">
+      <meta name="keywords" content="afro,market,afromarket,support,buy,sell,trade,near,you,nearby,buying,selling,app,apps,local">
     {{/if}}
     <meta property="og:type" content="article" />
     <meta property="og:image" content="{{current_url}}/logo.png" />
@@ -94,7 +94,7 @@
     {{#if show_footer}}
       <footer class="footer">
         <div class="container">
-          <p class="text-muted text-center">{{__ "AfroMarket.com"}} <a href="https://afromarket.com/" target="_blank">Buy, Sell, Trade New and Used Items.</a></p>
+          <p class="text-muted text-center">{{__ "AfroMarket.com"}} <a href="https://afromarket.com/" target="_blank">Buy, Sell, Trade Near You.</a></p>
         </div>
       </footer>
     {{/if}}
