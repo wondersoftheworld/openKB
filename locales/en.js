@@ -171,6 +171,7 @@
 	"404 - Page not found": "404 - Page not found",
 	"Versions": "Versions",
 	"Edit reason": "Edit reason",
+<<<<<<< HEAD
 	"Previous versions": "Previous versions",
 	"AfroMarket.com": "AfroMarket.com",
 	"User is admin?": "User is admin?",
@@ -178,3 +179,8 @@
 	"Suggestion successfully processed": "Suggestion successfully processed",
 	"Ask Question": "Ask Question"
 }
+=======
+	"Previous versions": "Previous versions"
+	"Topic": "Topic"
+}
+>>>>>>> mrvautin/master
